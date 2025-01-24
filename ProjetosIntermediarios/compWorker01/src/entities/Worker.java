@@ -12,7 +12,7 @@ public class Worker {
     private Department department;
     private List<HourContract> contracts = new ArrayList<>();
 
-    public Worker(){
+    public Worker(String workerName, String name, double baseSalary, Department department){
 
     }
     public Worker(WorkerLevel level, String name, double baseSalary, Department department) {
@@ -78,6 +78,7 @@ public class Worker {
             }
             return sum;
         }
+        return sum;
     }
 
 }
